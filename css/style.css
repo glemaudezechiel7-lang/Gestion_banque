@@ -1,0 +1,65 @@
+/* Style INCONNUBANK - Dark Theme */
+body {
+    background-color: #12121c;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg-dark {
+    background-color: #161626 !important;
+}
+.bg-secondary {
+    background-color: #28283e !important;
+}
+.text-info {
+    color: #64d8ff !important;
+}
+.border-info {
+    border-color: #64d8ff !important;
+}
+.btn-info {
+    background-color: #64d8ff;
+    border-color: #64d8ff;
+    color: #000;
+}
+.btn-info:hover {
+    background-color: #3ab0db;
+    border-color: #3ab0db;
+}
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.01);
+}
+.table-dark {
+    background-color: #1e1e32;
+}
+.table-dark th {
+    background-color: #28283e;
+    border-bottom: 2px solid #64d8ff;
+}
+.nav-link {
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.nav-link:hover {
+    background-color: #28283e;
+    color: #64d8ff !important;
+}
+.alert {
+    border-radius: 10px;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .vh-100 {
+        height: auto !important;
+    }
+    .col-md-2 {
+        display: none;
+    }
+    .col-md-10 {
+        width: 100%;
+        padding: 15px;
+    }
+}
